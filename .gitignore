@@ -1,3 +1,126 @@
+# Created by https://www.toptal.com/developers/gitignore/dslist/java,maven,visualstudiocode,intellij
+# Edit at https://www.toptal.com/developers/gitignore?templates=java,maven,visualstudiocode,intellij
+
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+dslist/.idea/**/.gitignore
+dslist/.idea/**/compiler.xml
+dslist/.idea/**/encodings.xml
+dslist/.idea/**/jarRepositories.xml
+dslist/.idea/**/misc.xml
+dslist/.idea/**/vcs.xml
+dslist/.idea/**/workspace.xml
+dslist/.idea/**/tasks.xml
+dslist/.idea/**/usage.statistics.xml
+dslist/.idea/**/dictionaries
+dslist/.idea/**/shelf
+
+# AWS User-specific
+dslist/.idea/**/aws.xml
+
+# Generated files
+dslist/.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+dslist/.idea/**/dataSources/
+dslist/.idea/**/dataSources.ids
+dslist/.idea/**/dataSources.local.xml
+dslist/.idea/**/sqlDataSources.xml
+dslist/.idea/**/dynamic.xml
+dslist/.idea/**/uiDesigner.xml
+dslist/.idea/**/dbnavigator.xml
+
+# Gradle
+dslist/.idea/**/gradle.xml
+dslist/.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# dslist/.idea/artifacts
+# dslist/.idea/compiler.xml
+# dslist/.idea/jarRepositories.xml
+# dslist/.idea/modules.xml
+# dslist/.idea/*.iml
+# dslist/.idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+dslist/.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+dslist/.idea/replstate.xml
+
+# SonarLint plugin
+dslist/.idea/sonarlint/
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+dslist/.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+dslist/.idea/caches/build_file_checksums.ser
+
+### Intellij Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+# modules.xml
+# dslist/.idea/misc.xml
+# *.ipr
+
+# Sonarlint plugin
+# https://plugins.jetbrains.com/plugin/7973-sonarlint
+dslist/.idea/**/sonarlint/
+
+# SonarQube Plugin
+# https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
+dslist/.idea/**/sonarIssues.xml
+
+# Markdown Navigator plugin
+# https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
+dslist/.idea/**/markdown-navigator.xml
+dslist/.idea/**/markdown-navigator-enh.xml
+dslist/.idea/**/markdown-navigator/
+
+# Cache file creation bug
+# See https://youtrack.jetbrains.com/issue/JBR-2257
+dslist/.idea/$CACHE_FILE$
+
+# CodeStream plugin
+# https://plugins.jetbrains.com/plugin/12206-codestream
+dslist/.idea/codestream.xml
+
+# Azure Toolkit for IntelliJ plugin
+# https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
+dslist/.idea/**/azureSettings.xml
+
+### Java ###
 # Compiled class file
 *.class
 
@@ -22,3 +145,113 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+### Maven ###
+dslist/target/
+dslist/pom.xml.tag
+dslist/pom.xml.releaseBackup
+dslist/pom.xml.versionsBackup
+dslist/pom.xml.next
+dslist/release.properties
+dslist/dependency-reduced-pom.xml
+dslist/buildNumber.properties
+dslist/.mvn/timing.properties
+dslist/.mvn/wrapper/maven-wrapper.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+dslist/.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse m2e generated files
+# Eclipse Core
+dslist/.project
+# JDT-specific (Eclipse Java Development Tools)
+dslist/.classpath
+
+### VisualStudioCode ###
+.vscode/*
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+### dotenv ###
+.env
+
+### Eclipse ###
+dslist/.metadata
+dslist/bin/
+dslist/tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+dslist/local.properties
+dslist/.settings/
+dslist/.loadpath
+dslist/.recommenders
+
+# External tool builders
+dslist/.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+dslist/*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+dslist/*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+dslist/.cproject
+
+# CDT- autotools
+dslist/.autotools
+
+# Java annotation processor (APT)
+dslist/.factorypath
+
+# PDT-specific (PHP Development Tools)
+dslist/.buildpath
+
+# sbteclipse plugin
+dslist/.target
+
+# Tern plugin
+dslist/.tern-project
+
+# TeXlipse plugin
+dslist/.texlipse
+
+# STS (Spring Tool Suite)
+dslist/.springBeans
+
+# Code Recommenders
+dslist/.recommenders/
+
+# Annotation Processing
+dslist/.apt_generated/
+dslist/.apt_generated_test/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+dslist/.cache-main
+dslist/.scala_dependencies
+dslist/.worksheet
+
+# Uncomment this line if you wish to ignore the project description file.
+# Typically, this file would be tracked if it contains build/dependency configurations:
+#.project
+
+### Eclipse Patch ###
+# Spring Boot Tooling
+dslist/.sts4-cache/
+
+# End of https://www.toptal.com/developers/gitignore/dslist/java,maven,visualstudiocode,intellij
